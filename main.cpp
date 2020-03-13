@@ -4,8 +4,11 @@ using namespace std;
 
 int main()
 {
-    cout << "Enter A and B: ";
+    cout << "Enter a and b: ";
     int a,b;
     cin>>a>>b;
+    cout << "a+b="<<a+b<<'\n'
+         <<"a-b="<<a-b<<'\n';
+
     return 0;
 }
